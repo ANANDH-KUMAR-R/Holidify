@@ -1,0 +1,297 @@
+.Holidify{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.header_cont{
+    height: 10vh;
+    width: 100vw;
+    background-color:white;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.headerf{
+    width: 40vw;
+    padding-left:15vw;
+    /* padding-right: 10vw; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.header2{
+    align-content: center;
+    margin-top: 0px;
+    height: 50px;
+    width: 350px;
+    /* border: solid 1px black; */
+     font-size: 15px;
+    box-shadow: 0px 0px 9px .5px  rgb(107, 107, 107);
+}
+
+.search1{
+    padding: 0px 0px 0px 10px;
+    font-size: 15px;
+}
+
+.header3>select{
+    margin-top: 20px;
+    border: none;
+    font-size: 20px;
+
+}
+
+.headerS{
+    width: 30vw;
+    padding-right: 15vw;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.harderS1{
+    margin-top: 20px;
+
+}
+.harderS2{
+    margin-top: 20px;
+}
+
+
+.harderS2>a{
+    text-decoration: none;
+    color: red;
+
+}
+
+.emptydiv{
+    height: 1px;
+    width: 100vw;
+    background-color: rgb(124, 124, 124);
+}
+.bodydiv{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: yellowgreen; */
+}
+.body{
+  
+        width: 80vw;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        /* background-color: rgb(86, 79, 79); */
+    }
+.bodyMain{
+    height: 100vh;
+    /* width: 200px; */
+    width: 74vw;
+        padding-right: 1px;
+        padding-left: 1px;
+        margin-right: auto;
+        margin-left: auto;
+        /* background-color: rgb(250, 245, 245); */
+        /* display: flex; */
+}
+.heading1,.SmallHeading{
+    width: 74vw;
+        padding-right: 1px;
+        padding-left: 1px;
+        margin-right: auto;
+        margin-left: auto;
+        /* background-color: rgb(173, 62, 62); */
+        display: flex;
+
+}
+.intput{
+    /* height: 20px;
+    width: 200px; */
+    width: 74vw;
+        padding-right: 1px;
+        padding-left: 1px;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: rgba(173, 62, 62, 0.056);
+        display: flex;
+}
+#ll{
+    z-index: 1;
+    position: relative;
+    height: 300px;
+}
+
+
+.SearchDiv{
+    display: flex;
+    justify-content: start;
+    /* height: 80px;
+    width: 70vw; */
+    /* border:solid 1px; */
+    /* border-color:purple; */
+    /* width: 74vw; */
+    padding-left:1vw;
+    padding-right: 1vw;
+    /* background-color: aqua; */
+}
+.search{
+    height: 20px;
+    width: 18px;
+    position: relative;
+    /* line-height: 30px; */
+    padding: 19px 5px;
+}
+.SearchBox{
+    align-content: center;
+    height: 60px;
+    border:solid 1px;
+    box-shadow: black;
+    background-color: white;
+    border-color: rgb(120, 118, 118);
+    display: flex;
+}
+
+.SearchBox>input{
+    font-size: 15px;
+    height: 55px;
+    width: 500px;
+    border: none;
+}
+
+/* ------------------ */
+
+.check_in{
+    text-indent: 8px;
+
+    display: flex;
+    height: 50px;
+    width: 200px;
+    background-color:white;
+    border-color: black;
+    border-radius: 2px;
+    border: solid 1px black;
+    align-items: center;
+    font-size: 20px;
+
+}
+.check_in>div>select{
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+div>input{
+    border: none;
+}
+.date{
+    display: flex;
+    padding-left:1vw;
+    padding-right: 1vw;
+}
+.Search_ur_Dates{
+    text-indent: 8px;
+    display: flex;
+    height: 50px;
+    width: 220px;
+    background-color: rgb(231, 75, 75);
+    border-color: black;
+    border-radius: 3px;
+    align-items: center;
+    font-size: 20px;
+}
+.container{
+    height: 250px;
+    width: 1138px;
+    background-color: white;
+    box-shadow: 0px 0px 9px .5px  rgb(107, 107, 107);
+}
+
+.Stay_Collections{
+    height: 200px;
+    width: 72.9vw;
+    /* background-color: aquamarine; */
+    display: flex;
+    /* padding: 10px; */
+}
+
+.Chandigarh{
+    height: 130px;
+    width: 210px;
+    background-color: black;
+    background-image: url(https://www.holidify.com/images/bgImages/CHANDIGARH.jpg); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;  
+}
+.Kochi{
+    height: 130px;
+    width: 210px;
+    background-color: black;
+    background-image: url(https://www.holidify.com/images/bgImages/KOCHI.jpg); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;  
+}
+.Jaipure{
+    height: 130px;
+    width: 210px;
+    background-color: black;
+    background-image: url(https://www.holidify.com/images/bgImages/JAIPUR.jpg); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;  
+}
+
+.Mumbai{
+    height: 130px;
+    width: 210px;
+    background-color: black;
+    background-image: url(https://www.holidify.com/images/bgImages/MUMBAI.jpg); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;  
+}
+.NewDelhi{
+    height: 130px;
+    width: 210px;
+    background-color: black;
+    background-image: url(	https://www.holidify.com/images/bgImages/DELHI.jpg); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;  
+}
+
+.lazyBG {
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.d-flex {
+    display: flex ;
+    justify-content: end;
+}
+.rating-badge {
+    background: #237c74;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-family: "Manrope Bold", sans-serif;
+    font-size: 14px;
+    line-height: 1.7rem;
+    display: inline-block;
+}
+.prgB{
+    font-weight: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 4px;
+}
+.PrgG {
+    font-size: 14px;
+    color: rgb(32, 31, 31);
+    margin-bottom: 4px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
